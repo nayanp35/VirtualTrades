@@ -34,6 +34,7 @@ export const GET = async () => {
     })
   );
 
+  console.log('success');
   return new Response(JSON.stringify('success'), {
     status: 200,
   });
